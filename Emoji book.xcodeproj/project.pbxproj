@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		835D34911E38DABE0059EF63 /* DefinitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835D34901E38DABE0059EF63 /* DefinitionViewController.swift */; };
 		8397DDCE1E37A42700E0A0FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8397DDCD1E37A42700E0A0FE /* AppDelegate.swift */; };
 		8397DDD01E37A42700E0A0FE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8397DDCF1E37A42700E0A0FE /* ViewController.swift */; };
 		8397DDD31E37A42700E0A0FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8397DDD11E37A42700E0A0FE /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		835D34901E38DABE0059EF63 /* DefinitionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefinitionViewController.swift; sourceTree = "<group>"; };
 		8397DDCA1E37A42700E0A0FE /* Emoji book.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Emoji book.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8397DDCD1E37A42700E0A0FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8397DDCF1E37A42700E0A0FE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 			children = (
 				8397DDCD1E37A42700E0A0FE /* AppDelegate.swift */,
 				8397DDCF1E37A42700E0A0FE /* ViewController.swift */,
+				835D34901E38DABE0059EF63 /* DefinitionViewController.swift */,
 				8397DDD11E37A42700E0A0FE /* Main.storyboard */,
 				8397DDD41E37A42700E0A0FE /* Assets.xcassets */,
 				8397DDD61E37A42700E0A0FE /* LaunchScreen.storyboard */,
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8397DDD01E37A42700E0A0FE /* ViewController.swift in Sources */,
+				835D34911E38DABE0059EF63 /* DefinitionViewController.swift in Sources */,
 				8397DDCE1E37A42700E0A0FE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -302,6 +306,7 @@
 				8397DDDE1E37A42700E0A0FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
