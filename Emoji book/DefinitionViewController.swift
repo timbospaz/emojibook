@@ -10,6 +10,10 @@ import UIKit
 
 class DefinitionViewController: UIViewController {
 
+    @IBOutlet weak var birthYearLabel: UILabel!
+    
+    @IBOutlet weak var catagoryLabel: UILabel!
+    
     @IBOutlet weak var defintionLabel: UILabel!
     
     
@@ -24,21 +28,31 @@ class DefinitionViewController: UIViewController {
     
         emojiLabel.text = emoji
         
-        if emoji == "😊" { defintionLabel.text = "a Cute smiley "
+        if  emoji == "😊" { defintionLabel.text = "a Cute smiley "
+            catagoryLabel.text = "Catagory: Smiley"
+            birthYearLabel.text = "BirthYear:1967"
 
         }
-        if emoji == "💩" { defintionLabel.text = "a pile of pool  "
-            
+        if  emoji == "💩" { defintionLabel.text = "a pile of pool  "
+            catagoryLabel.text = "Catagory: poo"
+            birthYearLabel.text = "BirthYear:1950"
         }
-        if emoji == "😤" { defintionLabel.text = "a grumpy man  "
-            
+        if  emoji == "😤" { defintionLabel.text = "a grumpy man  "
+            catagoryLabel.text = "Catagory: Windy"
+            birthYearLabel.text = "BirthYear:1940"
         }
-        if emoji == "👮" { defintionLabel.text = "a happy police man  "
-            
+        if  emoji == "👮" { defintionLabel.text = "a happy police man  "
+            catagoryLabel.text = "Catagory: Policeman"
+            birthYearLabel.text = "BirthYear:1920"
         }
-        if emoji == "🐰" { defintionLabel.text = "whats up rabbit !  "
+        if  emoji == "🐰" { defintionLabel.text = "whats up rabbit !  "
+            catagoryLabel.text = "Catagory: Rabbit"
+            birthYearLabel.text = "BirthYear:1956"
         }
-        if emoji == "🐺" { defintionLabel.text = "a galloping horse  "
+        
+        if  emoji == "🐺" { defintionLabel.text = "a wolfy wolf "
+            catagoryLabel.text = "Catagory: Wolf"
+            birthYearLabel.text = "BirthYear:1980"
         }
         
         

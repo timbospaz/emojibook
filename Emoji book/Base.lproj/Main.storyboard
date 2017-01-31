@@ -62,8 +62,20 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="This is a church " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h22-bM-PFJ">
-                                <rect key="frame" x="97.5" y="393" width="125" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="This is a lovely church" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h22-bM-PFJ">
+                                <rect key="frame" x="75.5" y="393" width="169" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Catagory: Smiley" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zU6-Ns-EG1">
+                                <rect key="frame" x="95" y="433.5" width="130" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="BirthYear: 2010 " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OS8-pV-ThO">
+                                <rect key="frame" x="100" y="474" width="121" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -72,19 +84,25 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="h22-bM-PFJ" firstAttribute="top" secondItem="wY4-Si-1HU" secondAttribute="bottom" constant="50" id="2g8-Hz-f1O"/>
+                            <constraint firstItem="zU6-Ns-EG1" firstAttribute="centerX" secondItem="bK3-2R-9lR" secondAttribute="centerX" id="35b-8l-9Vj"/>
+                            <constraint firstItem="OS8-pV-ThO" firstAttribute="centerX" secondItem="bK3-2R-9lR" secondAttribute="centerX" id="7bQ-7g-SGX"/>
                             <constraint firstItem="h22-bM-PFJ" firstAttribute="centerX" secondItem="bK3-2R-9lR" secondAttribute="centerX" id="ADp-0S-fhN"/>
+                            <constraint firstItem="OS8-pV-ThO" firstAttribute="top" secondItem="zU6-Ns-EG1" secondAttribute="bottom" constant="20" id="I07-p2-ObK"/>
                             <constraint firstItem="wY4-Si-1HU" firstAttribute="centerX" secondItem="bK3-2R-9lR" secondAttribute="centerX" id="UBh-4u-UGf"/>
+                            <constraint firstItem="zU6-Ns-EG1" firstAttribute="top" secondItem="h22-bM-PFJ" secondAttribute="bottom" constant="20" id="eA9-Jl-EPN"/>
                             <constraint firstItem="wY4-Si-1HU" firstAttribute="top" secondItem="c7T-Cj-x6I" secondAttribute="bottom" constant="40" id="lez-sB-o8p"/>
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="birthYearLabel" destination="OS8-pV-ThO" id="peh-Du-OBL"/>
+                        <outlet property="catagoryLabel" destination="zU6-Ns-EG1" id="cms-hO-VgO"/>
                         <outlet property="defintionLabel" destination="h22-bM-PFJ" id="7IQ-Ck-JvF"/>
                         <outlet property="emojiLabel" destination="wY4-Si-1HU" id="dAt-4Y-EOh"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ofZ-Kz-v38" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="658" y="141"/>
+            <point key="canvasLocation" x="656.25" y="140.49295774647888"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="09s-UP-IYh">
