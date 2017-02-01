@@ -19,41 +19,20 @@ class DefinitionViewController: UIViewController {
     
     @IBOutlet weak var emojiLabel: UILabel!
     
-    var emoji = "NO EOJI"
+    var emoji = Emoji()
     override func viewDidLoad() {
         super.viewDidLoad()
         
 
         // Do any additional setup after loading the view.
     
-        emojiLabel.text = emoji
+        emojiLabel.text = emoji.stringEmoji
+        birthYearLabel.text = "BirthYear: \(emoji.birthyear)"
+        catagoryLabel.text = "Category: \(emoji.category)"
+        defintionLabel.text = emoji.definition 
         
-        if  emoji == "😊" { defintionLabel.text = "a Cute smiley "
-            catagoryLabel.text = "Catagory: Smiley"
-            birthYearLabel.text = "BirthYear:1967"
-
-        }
-        if  emoji == "💩" { defintionLabel.text = "a pile of pool  "
-            catagoryLabel.text = "Catagory: poo"
-            birthYearLabel.text = "BirthYear:1950"
-        }
-        if  emoji == "😤" { defintionLabel.text = "a grumpy man  "
-            catagoryLabel.text = "Catagory: Windy"
-            birthYearLabel.text = "BirthYear:1940"
-        }
-        if  emoji == "👮" { defintionLabel.text = "a happy police man  "
-            catagoryLabel.text = "Catagory: Policeman"
-            birthYearLabel.text = "BirthYear:1920"
-        }
-        if  emoji == "🐰" { defintionLabel.text = "whats up rabbit !  "
-            catagoryLabel.text = "Catagory: Rabbit"
-            birthYearLabel.text = "BirthYear:1956"
-        }
         
-        if  emoji == "🐺" { defintionLabel.text = "a wolfy wolf "
-            catagoryLabel.text = "Catagory: Wolf"
-            birthYearLabel.text = "BirthYear:1980"
-        }
+        
         
         
     
